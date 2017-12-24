@@ -1,0 +1,75 @@
+{
+	"lists": {
+
+		"firstnames": {
+	
+			"female": "names/names-female.txt",
+			"male"  : "names/names-male.txt"
+
+		},
+
+		"lastnames": {
+		
+			"last"  : "names/names-last.txt" 
+
+		},
+
+		"addresses": {
+	
+			"randomly-generated": "./addresses/addresses-10k-generated.txt"
+		
+		},
+	
+		"useragents": {
+		
+			"sqlmap": "./useragents/user-agents.txt"
+
+		},
+
+		"words": {
+		
+			"en-US": "words/american-english.txt"
+		},
+
+		"emailproviders": {
+		
+			"mainstream": "emailproviders/mainstream_providers.txt",
+			"non-mainstream": "emailproviders/non-mainstream_providers.txt"
+
+		},
+
+		"TLDs": {
+		
+
+			"most-used": "TLDs/most-used-TLDs.txt"
+		
+		},
+
+		"businesses": {
+			
+			"generic": "bussinesses/business-names.txt"
+
+		},
+
+		"occupations": {
+		
+			"generic": "occupations/occupations.txt"
+
+		}
+	},
+
+	"defaults": {
+		
+		"firstnames": ["female", "male"],
+		"lastnames" : ["last"],
+		"addresses" : ["randomly-generated"],
+		"useragents": ["sqlmap"],
+		"words"     : ["en-US"],
+		"emailproviders": ["mainstream", "non-mainstream"],
+		"TLDs": ["most-used"],
+		"businesses": ["generic"],
+		"occupations": ["generic"]
+
+	}
+
+}
